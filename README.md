@@ -1,4 +1,5 @@
-````markdown
+
+````
 # 🎙️ AI Voice Agent
 
 A **web-based conversational AI agent** that allows you to interact with artificial intelligence using your **voice**.  
@@ -128,4 +129,11 @@ language-learning-app/
 * [Murf AI](https://murf.ai/) for Text-to-Speech
 
 ---
+
+## 📜 License
+
+This project is licensed under the **MIT License** – feel free to use and modify.
+
+---
+
 ```
