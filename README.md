@@ -1,7 +1,3 @@
-Got it 👍 — your version looks good, but the formatting broke in the **Setup & Installation** and **Acknowledgments** sections (missing code fences, headings inconsistent).
-Here’s a **clean and fully formatted `README.md`** you can copy directly:
-
-````markdown
 # 🎙️ AI Voice Agent
 
 A **web-based conversational AI agent** that allows you to interact with artificial intelligence using your **voice**.  
@@ -52,32 +48,28 @@ This project was built as part of the **"30 Days of AI Voice Agents" challenge**
 ```bash
 git clone <your-repository-url>
 cd language-learning-app
-````
+```
 
 ### 2. Create a Virtual Environment
 
 #### Windows
-
 ```bash
 python -m venv venv
 venv\Scripts\activate
 ```
 
 #### macOS/Linux
-
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
 
 ### 3. Install Dependencies
-
 ```bash
 pip install -r requirements.txt
 ```
 
 ### 4. Configure Environment Variables
-
 Create a `.env` file inside the `backend/` directory with your API keys:
 
 ```ini
@@ -90,7 +82,6 @@ GOOGLE_API_KEY="your_google_api_key_here"
 ---
 
 ## 🚀 Running the Application
-
 Make sure your virtual environment is activated, then run:
 
 ```bash
@@ -98,7 +89,7 @@ cd language-learning-app
 python backend/app.py
 ```
 
-Open your browser at:
+Open your browser at:  
 👉 [http://127.0.0.1:5000](http://127.0.0.1:5000)
 
 A unique session ID will be generated and appended to your URL.
@@ -106,7 +97,6 @@ A unique session ID will be generated and appended to your URL.
 ---
 
 ## 📂 Project Structure
-
 ```
 language-learning-app/
 │── backend/
@@ -125,8 +115,6 @@ language-learning-app/
 ---
 
 ## 🙌 Acknowledgments
-
-* [AssemblyAI](https://www.assemblyai.com/) – Speech-to-Text
-* [Google Gemini](https://ai.google.dev/) – Conversational AI
-* [Murf AI](https://murf.ai/) – Text-to-Speech
-
+* [AssemblyAI](https://www.assemblyai.com/) – Speech-to-Text  
+* [Google Gemini](https://ai.google.dev/) – Conversational AI  
+* [Murf AI](https://murf.ai/) – Text-to-Speech  
